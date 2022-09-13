@@ -1,0 +1,524 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
+    <link rel="stylesheet" href="style.css">
+    <title>Wood Essence</title>
+</head>
+
+<body>
+    <div class="search_bar animate__animated animate__slideInDown animate__fast">
+        <i class="fa-solid fa-magnifying-glass"></i>
+        <input type="text" placeholder="Search...." />
+        <button id="close"><i class="fa-solid fa-close"></i></button>
+    </div>
+    <button id="scroll"><i class="fa-solid fa-arrow-up"></i></button>
+    <div class="container-fluid">
+        <div class="sidebar">
+            <div class="header">
+                <div class="logo">Wood<span>Essence</span></div>
+                <button id="close_sidebar"><i class="fa-solid fa-close"></i></button>
+            </div>
+            <div class="nav">
+                <a class="nav-item" href="#carousel">Home</a>
+                <a class="nav-item" href="#arrival">New Arrival</a>
+                <a class="nav-item" href="#featured">Features</a>
+                <a class="nav-item" href="#blogs">Blog</span>
+                    <a class="nav-item" href="#contact">Contact</a>
+            </div>
+            <div class="icons">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <div class="cart-con"> <i class="fa-solid fa-cart-shopping"></i>
+                    <span>3</span>
+                </div>
+            </div>
+            <div class="social" style="text-align: center;">
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-linkedin"></i>
+                <i class="fa-brands fa-pinterest"></i>
+                <i class="fa-brands fa-behance"></i>
+            </div>
+        </div>
+        <div class="container">
+            <div class="navbar">
+                <div class="logo">
+                    Wood<span>Essence</span>
+                </div>
+                <div class="nav ">
+                    <a class="nav-item" href="#carousel">Home</a>
+                    <a class="nav-item" href="#arrival">New Arrival</a>
+                    <a class="nav-item" href="#featured">Features</a>
+                    <a class="nav-item" href="#blogs">Blog</span>
+                        <a class="nav-item" href="#contact">Contact</a>
+                </div>
+                <div class="icons">
+                    <button id="search">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </button>
+                    <button id="cart">
+                        <i class="fa-solid fa-cart-shopping"></i>
+                        <span id="cart_Q">3</span>
+                    </button>
+                    <div class="cart-con"></div>
+                </div>
+                <button id="toggle"><i class="fa-solid fa-bars"></i></button>
+            </div>
+
+            <div class="carousel" id="carousel">
+                <div class="item active_item ">
+                    <div class="leftside animate__animated animate__fadeInRight">
+                        <h4>Great Design Collection</h4>
+                        <h2 class="">Cloth Covered Accent Chair
+                        </h2>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsam maiores ut quam doloribus
+                            architecto necessitatibus consequuntur libero, at sequi iure obcaecati ipsa id iusto a,
+                            incidunt
+                            exercitationem ipsum accusantium quos!</p>
+                        <div class="price">
+                            <span>$ 299.00 </span>
+                            <span class="discount">$ 399.00</span>
+                        </div>
+                        <div class="btns my-2">
+                            <button id="Add"><i class="fa-solid fa-circle-plus"></i>Add to Cart</button>
+                            <button>More Info</button>
+                        </div>
+                    </div>
+                    <div class="rightside">
+                        <img src="./assests/images/slider/slider1.png" />
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="leftside animate__animated animate__fadeInRight">
+                        <h4>Great Design Collection</h4>
+                        <h2>Mapple Wood Accent Chair</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsam maiores ut quam doloribus
+                            architecto necessitatibus consequuntur libero, at sequi iure obcaecati ipsa id iusto a,
+                            incidunt
+                            exercitationem ipsum accusantium quos!</p>
+                        <div class="price  ">
+                            <span>$199.00</span>
+                            <span class="discount">$ 299.00</span>
+                        </div>
+                        <div class="btns my-2">
+                            <button id="Add"><i class="fa-solid fa-circle-plus"></i>Add to Cart</button>
+                            <button>More Info</button>
+                        </div>
+                    </div>
+                    <div class="rightside">
+                        <img src="./assests/images/slider/slider2.png" />
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="leftside animate__animated animate__fadeInRight">
+                        <h4>Great Design Collection</h4>
+                        <h2 class="">Valvet accent arm chair</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsam maiores ut quam doloribus
+                            architecto necessitatibus consequuntur libero, at sequi iure obcaecati ipsa id iusto a,
+                            incidunt
+                            exercitationem ipsum accusantium quos!</p>
+                        <div class="price  ">
+                            <span>$ 399.00 </span>
+                            <span class="discount">$ 499.00</span>
+                        </div>
+                        <div class="btns my-2">
+                            <button id="Add"><i class="fa-solid fa-circle-plus"></i>Add to Cart</button>
+                            <button>More Info</button>
+                        </div>
+                    </div>
+                    <div class="rightside">
+                        <img src="./assests/images/slider/slider3.png" />
+                    </div>
+                </div>
+                <div class="dots">
+                    <button class="dot  active_dot" data-slide="0"><i class="fa-solid fa-circle "></i></button>
+                    <button class="dot" data-slide="1"><i class="fa-solid fa-circle "></i></button>
+                    <button class="dot" data-slide="2"><i class="fa-solid fa-circle "></i></button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="populer-product" id="populer">
+            <div class="row">
+                <div class="col-lg-3 col-sm-6 ">
+                    <div class="single-populer-product">
+                        <div class="img-con "> <img src="./assests/images/populer-products/p1.png" /></div>
+                        <h5>Arm chair</h5>
+                        <p>Nemo enim ipsam voluptatem quia volu ptas sit asperna aut odit aut</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                    <div class="single-populer-product">
+                        <img src="./assests/images/populer-products/p3.png" />
+                        <h5>hanging lamp</h3>
+                            <p>Nemo Enim Ipsam Voluptatem Quia Volu Ptas Sit Asperna Aut Odit Aut.</p>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-sm-12">
+                    <div class="single-populer-product">
+                        <div class="row">
+                            <div class="img-con col-sm-5">
+                                <img src="./assests/images/populer-products/p2.png" class="px-3" />
+                            </div>
+                            <div class="col-sm-7 middle">
+                                <h5>latest designed stool </h5>
+                                <p>Edi Ut Perspiciatis Unde Omnis Iste Natusina Error Sit Voluptatem Accusantium Doloret
+                                    Mque
+                                    Laudantium, Totam Rem Aperiam</p>
+                                <div class="price-des"> <span>Sales Start from </span> <span class="price">$99.00</span>
+                                </div>
+                                <button>Discover More</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="new-arrivals" id="arrival">
+            <h3>New Arrivals</h3>
+            <div class="products">
+                <div class="row">
+                    <div class="col-lg-3 col-sm-6">
+                        <div class="product">
+                            <div class="img-con">
+                                <span class="label new">New</span>
+                                <img src="./assests/images/collection/arrivals1.png" />
+                                <div class="bar animate__animated animate__fadeInUp">
+                                    <div class="left-side">
+                                        <i class="fa-solid fa-cart-shopping"></i>
+                                        <span>Add to Cart</span>
+                                    </div>
+                                    <div class="right-side">
+                                        <i class="fa-solid fa-heart"></i>
+                                        <i class="fa-solid fa-expand"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <a class="product-description">Wooden Chair</a>
+                            <span class="price">$65.00</span>
+                        </div>
+                    </div>
+                    <div class="col-lg-3  col-sm-6">
+                        <div class="product">
+                            <div class="img-con">
+                                <span class="label sale">Sale</span>
+                                <img src="./assests/images/collection/arrivals2.png" />
+                                <div class="bar animate__animated animate__fadeInUp">
+                                    <div class="left-side">
+                                        <i class="fa-solid fa-cart-shopping"></i>
+                                        <span>Add to Cart</span>
+                                    </div>
+                                    <div class="right-side">
+                                        <i class="fa-solid fa-heart"></i>
+                                        <i class="fa-solid fa-expand"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <a class="product-description">single armchair</a>
+                            <span class="price">$80.00</span>
+                        </div>
+                    </div>
+                    <div class="col-lg-3  col-sm-6">
+                        <div class="product">
+                            <div class="img-con">
+                                <span class="label new">New</span>
+                                <img src="./assests/images/collection/arrivals3.png" />
+                                <div class="bar animate__animated animate__fadeInUp">
+                                    <div class="left-side">
+                                        <i class="fa-solid fa-cart-shopping"></i>
+                                        <span>Add to Cart</span>
+                                    </div>
+                                    <div class="right-side">
+                                        <i class="fa-solid fa-heart"></i>
+                                        <i class="fa-solid fa-expand"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <a class="product-description">wooden armchair</a>
+                            <span class="price">$40.00</span>
+                        </div>
+                    </div>
+                    <div class="col-lg-3  col-sm-6">
+                        <div class="product">
+                            <div class="img-con">
+                                <img src="./assests/images/collection/arrivals4.png" />
+                                <div class="bar animate__animated animate__fadeInUp">
+                                    <div class="left-side">
+                                        <i class="fa-solid fa-cart-shopping"></i>
+                                        <span>Add to Cart</span>
+                                    </div>
+                                    <div class="right-side">
+                                        <i class="fa-solid fa-heart"></i>
+                                        <i class="fa-solid fa-expand"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <a class="product-description">stylish chair</a>
+                            <span class="price">$100.00</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-3  col-sm-6">
+                        <div class="product">
+                            <div class="img-con">
+                                <span class="label sale">Sale</span>
+                                <img src="./assests/images/collection/arrivals5.png" />
+                                <div class="bar animate__animated animate__fadeInUp">
+                                    <div class="left-side">
+                                        <i class="fa-solid fa-cart-shopping"></i>
+                                        <span>Add to Cart</span>
+                                    </div>
+                                    <div class="right-side">
+                                        <i class="fa-solid fa-heart"></i>
+                                        <i class="fa-solid fa-expand"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <a class="product-description">modern chair</a>
+                            <span class="price">$120.00</span>
+                        </div>
+                    </div>
+                    <div class="col-lg-3  col-sm-6">
+                        <div class="product">
+                            <div class="img-con">
+
+                                <img src="./assests/images/collection/arrivals6.png" />
+                                <div class="bar animate__animated animate__fadeInUp">
+                                    <div class="left-side">
+                                        <i class="fa-solid fa-cart-shopping"></i>
+                                        <span>Add to Cart</span>
+                                    </div>
+                                    <div class="right-side">
+                                        <i class="fa-solid fa-heart"></i>
+                                        <i class="fa-solid fa-expand"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <a class="product-description"> wood dinning table</a>
+                            <span class="price">$140.00</span>
+                        </div>
+                    </div>
+                    <div class="col-lg-3  col-sm-6">
+                        <div class="product">
+                            <div class="img-con">
+
+                                <img src="./assests/images/collection/arrivals7.png" />
+                                <div class="bar animate__animated animate__fadeInUp">
+                                    <div class="left-side">
+                                        <i class="fa-solid fa-cart-shopping"></i>
+                                        <span>Add to Cart</span>
+                                    </div>
+                                    <div class="right-side">
+                                        <i class="fa-solid fa-heart"></i>
+                                        <i class="fa-solid fa-expand"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <a class="product-description">arm chair</a>
+                            <span class="price">$90.00</span>
+                        </div>
+                    </div>
+                    <div class="col-lg-3  col-sm-6">
+                        <div class="product">
+                            <div class="img-con">
+                                <span class="label sale">Sale</span>
+                                <img src="./assests/images/collection/arrivals8.png" />
+                                <div class="bar animate__animated animate__fadeInUp">
+                                    <div class="left-side">
+                                        <i class="fa-solid fa-cart-shopping"></i>
+                                        <span>Add to Cart</span>
+                                    </div>
+                                    <div class="right-side">
+                                        <i class="fa-solid fa-heart"></i>
+                                        <i class="fa-solid fa-expand"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <a class="product-description">wooden bed</a>
+                            <span class="price">$145.00</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="featured-products" id="featured">
+            <h3>Featured Products</h3>
+            <div class="products">
+                <div class="row">
+                    <div class="col-md-3 col-xs-6 col-12">
+                        <div class="product">
+                            <img src="./assests/images/features/f1.jpg" />
+                            <div class="rating">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <span class="reviews">(45 review)</span>
+                            </div>
+                            <h4 class="description">designed sofa</h4>
+                            <h6 class="price">$ 160.00</h6>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 col-12">
+                        <div class="product">
+                            <img src="./assests/images/features/f2.jpg" />
+                            <div class="rating">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <span class="reviews">(45 review)</span>
+                            </div>
+                            <h4 class="description">dinning table </h4>
+                            <h6 class="price">$ 200.00</h6>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 col-12">
+                        <div class="product">
+                            <img src="./assests/images/features/f3.jpg" />
+                            <div class="rating">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <span class="reviews">(45 review)</span>
+                            </div>
+                            <h4 class="description">chair and table</h4>
+                            <h6 class="price">$ 100.00</h6>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 col-12 ">
+                        <div class="product">
+                            <img src="./assests/images/features/f4.jpg" />
+                            <div class="rating">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <span class="reviews">(45 review)</span>
+                            </div>
+                            <h4 class="description">modern arm chair</h4>
+                            <h6 class="price">$ 299.00</h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="blogs" id="blogs">
+            <h3>Latest Blog</h3>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="blog">
+                        <img src="./assests/images/blog/b1.jpg" />
+                        <span class="header">Why Brands are Looking at Local Language</span>
+                        <p class="name"> Robert Norby / 18th March 2018</p>
+                        <p>
+                            Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia
+                            consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt....
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="blog">
+                        <img src="./assests/images/blog/b2.jpg" />
+                        <span class="header">Why Brands are Looking at Local Language</span>
+                        <p class="name"> Robert Norby / 18th March 2018</p>
+                        <p>
+                            Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia
+                            consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt....
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="blog">
+                        <img src="./assests/images/blog/b3.jpg" />
+                        <span class="header">Why Brands are Looking at Local Language</span>
+                        <p class="name"> Robert Norby / 18th March 2018</p>
+                        <p>
+                            Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia
+                            consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt....
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="clients row">
+        <img src="./assests/images/clients/c1.png" class="col-sm-6 " />
+        <img src="./assests/images/clients/c2.png" class="col-sm-6 " />
+        <img src="./assests/images/clients/c3.png" class="col-sm-6 " />
+        <img src="./assests/images/clients/c4.png" class="col-sm-6 " />
+        <img src="./assests/images/clients/c5.png" class="col-sm-6 " />
+    </div>
+    <div class="info container" id="contact">
+        <div class="row">
+            <div class="col-md-3 col-sm-6 col-xs-12">
+                <h3>Information</h3>
+                <span>about us</span>
+                <span>contact us</span>
+                <span>news</span>
+                <span>store</span>
+            </div>
+            <div class="col-md-3 col-sm-6 col-xs-12">
+                <h3>Collections</h3>
+                <span>wooden chair</span>
+                <span>royal cloth sofa</span>
+                <span>accent chair</span>
+                <span>bed</span>
+                <span>hanging lamp</span>
+            </div>
+            <div class="col-md-3 col-sm-6 col-xs-12">
+                <h3>my accounts</h3>
+                <span>my account</span>
+                <span>wishlist</span>
+                <span>Community</span>
+                <span>order history</span>
+            </div>
+            <div class="col-md-3 col-sm-6 col-xs-12">
+                <h3>newsletter</h3>
+                <p>
+                    Subscribe to get latest news,update and information.
+                </p>
+                <div class="input-con">
+                    <input type="text" placeholder="Enter Email Here ...">
+                    <i class="fa fa-location-arrow"></i>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div class="social">
+        <div>
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-linkedin"></i>
+            <i class="fa-brands fa-pinterest"></i>
+            <i class="fa-brands fa-behance"></i>
+        </div>
+        <p>
+            ©copyright. Designed and Developed by Omar Naguib
+        </p>
+    </div>
+    <script src="index.js"></script>
+    <script src="assests/all.min.js"></script>
+</body>
+
+</html>
